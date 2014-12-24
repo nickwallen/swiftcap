@@ -1,0 +1,21 @@
+Package: swiftcap
+Type: Package
+Title: A type ahead prediction model akin to Swiftkey's smart keyboard.
+Version: 1.0
+Date: 2014-12-22
+Author: Nick Allen <nick@nickallen.org>
+Maintainer: Who to complain to <yourfault@somewhere.net>
+Description: A typeahead prediction model suggests words as a user types to
+    improve typing efficiency on constrained mobile devices. This is akin to
+    products such as Swiftkey which is available for Android and iOS mobile
+    devices. This was completed as the Project Capstone for the Data Science
+    Specialization offered by Johns Hopkins University through Coursera.
+License: MIT
+Depends:
+    data.table,
+    stringi,
+    nmisc,
+    scales,
+    RWeka
+Suggests:
+    testthat
