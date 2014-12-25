@@ -59,7 +59,7 @@ predict.ngram <- function (object, newdata, rank = 5) {
                 predictions <- predictions [complete.cases (predictions)]
 
                 # only keep the top 'rank' predictions
-                predictions <- predictions [rank <= rank, word]
+                predictions <- predictions [rank <= rank]
 
                 break
             }
