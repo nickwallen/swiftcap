@@ -10,6 +10,7 @@
 #'
 #' @param ngrams A data.table containing all contexts in the corpus.
 #' @return The maximum liklihood estimate of the probability of each n-gram.
+#' @export
 #'
 ngram_mle <- function (ngrams) {
 
