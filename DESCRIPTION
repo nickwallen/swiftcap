@@ -14,7 +14,6 @@ License: MIT
 Depends:
     data.table,
     stringi,
-    nmisc,
     scales,
     RWeka
 Suggests:
