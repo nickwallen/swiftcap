@@ -79,7 +79,7 @@ ngram.character <- function (x,
     ngrams <- ngrams [, list (frequency = .N), by = phrase]
 
     # extract the context and the next word for each ngram
-    ngrams [, word    := last_word (phrase), by = phrase]
+    ngrams [, word    := last_word (phrase),        by = phrase]
     ngrams [, context := except_last_word (phrase), by = phrase]
 
     # calculate the MLE of the probability of occurrence for each n-gram
